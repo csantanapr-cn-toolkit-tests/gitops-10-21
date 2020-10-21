@@ -1,5 +1,0 @@
-dependencies:
-  - name: go-10-21
-    version: 0.0.1
-    repository: >-
-      https://artifactory-tools.csantana-tk1-6ccd7f378ae819553d37d5f2ee142bd6-0000.us-east.containers.appdomain.cloud/artifactory/generic-local/go-app-dev

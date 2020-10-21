@@ -1,4 +1,0 @@
-apiVersion: v2
-version: 0.1.0
-name: go-10-21
-description: Chart to configure ArgoCD with the go-10-21 project and its applications
