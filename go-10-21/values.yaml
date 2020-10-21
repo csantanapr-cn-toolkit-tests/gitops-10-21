@@ -1,3 +1,0 @@
-global: {}
-go-10-21:
-  replicaCount: 1
