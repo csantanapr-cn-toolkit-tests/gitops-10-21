@@ -6,7 +6,7 @@ argocd-config:
   project: garage-toolkit-apps
 
   applicationTargets:
-    - targetRevision: test
+    - targetRevision: master
       targetNamespace: go-app-test
       applications:
         - name: go-10-21
