@@ -1,0 +1,17 @@
+global: {}
+
+argocd-config:
+  repoUrl: "https://github.com/csantanapr-cn-toolkit-tests/gitops-10-21"
+
+  project: garage-toolkit-apps
+
+  applicationTargets:
+    - targetRevision: test
+      targetNamespace: go-app-test
+      applications:
+        - name: go-10-21
+    - targetRevision: staging
+      targetNamespace: go-app-staging
+      applications:
+        - name: go-10-21
+
